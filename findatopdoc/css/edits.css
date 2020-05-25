@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Circular Std Bold';
+    src: local('Circular Std Bold'), local('Circular-Std-Bold'),
+        url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('../fonts/CircularStd-Bold.woff') format('woff'),
+        url('../fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std Book';
+    src: local('Circular Std Book'), local('Circular-Std-Book'),
+        url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('CircularStd-Book.woff') format('woff'),
+        url('CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std Medium';
+    src: local('Circular Std Medium'), local('Circular-Std-Medium'),
+        url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('../fonts/CircularStd-Medium.woff') format('woff'),
+        url('../fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+*{
+    box-sizing: border-box;
+    font-family: "Circular Std Book"
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    padding:10px;
+    border: 1px solid #a2bebf;
+    text-align: center;
+}
+header img{
+    max-height: 100%;
+}
+
+.sec-1{
+    background: #c6e8ea;
+    padding: 50px 0;
+}
+.device-img{max-width: 100%;}
+.con{
+    position: relative;
+    padding: 50px 0;
+}
+.con2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.con h1{
+    color: #003a51;
+    font-size: 50px;
+    font-family: "Circular Std Bold"
+}
+.con p{
+    color: #546869;
+    font-size: 25px;
+    font-family: "Circular Std Book"
+}
+.con button{
+    font-size: 20px;
+    padding: 15px 25px;
+    background: #4dabe9;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.con button:focus{
+    outline: none;
+}
+.con img:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    width: 35px;
+}
+.con img:nth-of-type(2){
+    top: 5px;
+    position: absolute;
+    right: 110px;
+    width: 45px;
+}
+.con img:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    width: 40px;
+}
+.con img:nth-of-type(4){
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    width: 50px;
+}
+
+
+.sec-2{
+    padding: 50px 0;
+}
+.sec-2 h3{
+    font-size: 30px;
+    font-family: "Circular Std medium"
+}
+.Kiosk-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Circular Std Book"
+}
+.Kiosk-ul li {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #585858;
+}
+.con2 video{max-width: 370px;}
+.watch-img{
+    top:auto;
+    position: absolute;
+    bottom: 90px; 
+    left: -10px; 
+    width: 70px;
+}
+
+.sec-3 {
+    background: #c6e8ea;
+    padding: 50px 0 0 0;
+}
+.sec-3 h2{
+    color: #003a51;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Circular Std medium"
+
+}
+.device-2{
+    max-width: 100%;
+    position: relative;
+    margin-left: -25px;
+}
+.fet-left-ul, .fet-right-ul {
+    list-style: none;
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+.fet-left-ul li, .fet-right-ul li {
+    margin: 45px;
+    font-size: 20px;
+    padding: 0 0 0 40px;
+    position: relative;
+}
+.fet-left-ul li::before, .fet-right-ul li::before {
+    content: "";
+    position: absolute;
+    background: url(../images/icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.sec-4{
+    padding: 50px 0 0 0;
+}
+.sec-4 .col-md-4 video{
+    max-width: 100%;
+}
+.sec-4 .col-md-8{
+    padding-top: 120px;
+}
+.sec-4 h2{
+    font-family: "circular std medium";
+    color: #003a51;
+    text-transform: capitalize;
+}
+.carousel{
+    width: 325px;
+    margin: 30px 0 30px 0;
+    font-size: 23px;
+    color: #546869;
+}
+.carousel-item{
+    font-family: "circular std book";
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+
+.contact{
+    padding: 0 0 50px;
+}
+.contact h2{
+    text-align: center;
+    font-size: 50px;
+    color: #003a51;
+}
+.contact p{
+    font-size: 20px;
+    text-align: center;
+    color: #585858;
+}
+.contact-us-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 210px;
+}
+form input {
+    width: 50%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #c6e8ea;
+    margin: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+form textarea{
+    width: 50%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #c6e8ea;
+    margin: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+form button {
+    width: 50%;
+    margin: 10px;
+    padding: 15px;
+    background: #4dabe9;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    height: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+form button:focus, form textarea:focus, form input:focus{
+    outline: none;
+}
+
+footer{
+    background: #c6e8ea;
+    text-align: center;
+    padding: 20px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+footer ul li {
+    display: inline-block;
+    margin: 0 0px;
+}
+footer ul li::before{
+    content:"-"
+}
